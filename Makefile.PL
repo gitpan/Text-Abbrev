@@ -9,22 +9,22 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'create an abbreviation table from a list',
-  'AUTHOR' => 'The Perl 5 Porters',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "ABSTRACT" => "abbrev - create an abbreviation table from a list",
+  "AUTHOR" => "The Perl 5 Porters",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Text-Abbrev',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Text::Abbrev',
-  'PREREQ_PM' => {
-    'Exporter' => '0'
+  "DISTNAME" => "Text-Abbrev",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Text::Abbrev",
+  "PREREQ_PM" => {
+    "Exporter" => 0
   },
-  'VERSION' => '1.01',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "1.02",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
